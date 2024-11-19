@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Meie Script';
+    src: url('../fonts/MeieScript-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f1e7 !important;
+    color: #7e4847 !important;
+}
+
+h1{
+    font-family: 'Meie Script' !important;
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Meie Script';
+    src: url('../fonts/MeieScript-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f1e7 !important;
+    color: #7e4847 !important;
+}
+
+#sec1, #sec2 h2, #sec3 h2, #sec4 h2{
+    font-family: 'Meie Script' !important;
+}
+
+#sec2, #sec4{
+    background-color: #fffbf7 !important;
+}
+
+.custom-space-evenly {
+    justify-content: space-evenly;
+}
+
+.btn{
+    padding: 5px 10px !important;
+    border-style: solid !important;
+    border-color: #7E4847 !important;
+    border-width: 1px !important;
+    border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    border-style: none !important;
+    background-color: #7E4847 !important;
+    color: #FFFBF7 !important;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6) !important;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+}
